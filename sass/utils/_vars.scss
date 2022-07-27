@@ -1,0 +1,36 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --acsent-text-color: #2196f3;
+    --color-white: #ffffff;
+    --color-hero-footer: #2f303a;
+    --color-button-hero: #188ce8;
+    --color-icon: #afb1b8;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/stales.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <!--HEADER-->
+
+    <header class="header">
+      <div class="container header__contact">
+        <nav class="header__contact">
+          <a class="header__link header__link--fonts" href="./index.html">
+            <span class="header__logo">Web</span>Studio</a
+          >
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                class="header__link current hover-link-line"
+                href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link portfolio" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link text-contact" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="content-list list">
+          <li class="item-contact-header">
+            <a
+              class="header__link contact-header email"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="icon-email" width="16" height="12">
+                <use
+                  class="icon-use"
+                  href="./img/symbol-defs.svg#email"
+                ></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item-contact-header">
+            <a class="header__link contact-header tel" href="tel:+380961111111"
+              ><svg class="icon-email" width="16" height="12">
+                <use
+                  class="icon-use"
+                  href="./img/symbol-defs.svg#tel"
+                ></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Main content-->
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button" data-modal-open>
+            <span class="button__text">Заказать услугу</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-two">Особенности</h2>
+          <ul class="list">
+            <li class="features__item features__item--antenna">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p class="features__text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features__item features__item--clock">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p class="features__text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features__item features__item--diagram">
+              <h3 class="features__title">Планирование</h3>
+              <p class="features__text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features__item features__item--astronaut">
+              <h3 class="features__title">Современные технологии</h3>
+              <p class="features__text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="work section">
+        <div class="container">
+          <h2 class="caption">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li class="work__item">
+              <img src="img/box1.jpg" alt="Написання сайту" width="370" />
+              <p class="work__item-text">Десктопные приложения</p>
+            </li>
+            <li class="work__item">
+              <img
+                src="img/img(1).jpg"
+                alt="Адаптація його до різний пристроїв"
+                width="370"
+              />
+              <p class="work__item-text">Дизайнерские решения</p>
+            </li>
+            <li class="work__item">
+              <img src="img/img.jpg" alt="Створення дизайну" width="370" />
+              <p class="work__item-text">Мобильные приложения</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="comand section">
+        <div class="container">
+          <h2 class="caption">Наша команда</h2>
+          <ul class="list">
+            <li class="comand__item-main">
+              <img
+                class="comand__worker"
+                src="img/Comand/img.jpg"
+                alt="Ігорь Демьяненко"
+                f
+                width="270"
+              />
+
+              <h3 class="comand__subject">Игорь Демьяненко</h3>
+              <p class="comand__subtitle">Product Designer</p>
+              <ul class="list-comand">
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="comand__item-main">
+              <img
+                class="comand__worker"
+                src="img/Comand/img(1).jpg"
+                alt="Ольга Репина"
+                width="270"
+              />
+              <h3 class="comand__subject">Ольга Репина</h3>
+              <p class="comand__subtitle">Frontend Developer</p>
+              <ul class="list-comand">
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="comand__item-main">
+              <img
+                class="comand__worker"
+                src="img/Comand/img(2).jpg"
+                alt="Николай Тарасов"
+                width="270"
+              />
+              <h3 class="comand__subject">Николай Тарасов</h3>
+              <p class="comand__subtitle">Marketing</p>
+              <ul class="list-comand">
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="comand__item-main">
+              <img
+                class="comand__worker"
+                src="img/Comand/img(3).jpg"
+                alt="Михаил Ермаков"
+                width="270"
+              />
+              <h3 class="comand__subject">Михаил Ермаков</h3>
+              <p class="comand__subtitle">UI Designer</p>
+              <ul class="list-comand">
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="list-comand__icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="list-comand__item">
+                  <a
+                    class="list-comand__link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="list-comand__icon"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section-Regular-Customers -->
+
+      <section class="regular-customers section">
+        <div class="container">
+          <h2 class="caption">Постоянные клиенты</h2>
+          <ul class="regular-customers__list">
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#yaco"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#company"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#company2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#forster-peters"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#brand"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="regular-customers__item">
+              <a
+                class="regular-customers__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="regular-customers__icon" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#tag-line"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div>
+            <a class="footer__link footer__link--fonts" href="/">
+              <span class="footer__logo">Web</span>
+              <span class="slogan">Studio</span></a
+            >
+            <address>
+              <ul class="footer__list">
+                <li>
+                  <p class="footer__tagline">г. Киев, пр-т Леси Украинки, 26</p>
+                </li>
+                <li class="footer__item-mail">
+                  <a
+                    class="header__link contact"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer__item-tel">
+                  <a class="header__link contact" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="join-in">
+            <h2 class="join-in__title">Присоединяйтесь</h2>
+            <ul class="join-in__list">
+              <li class="join-in__item">
+                <a class="join-in__link" href="">
+                  <svg class="join-in__icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in__item">
+                <a class="join-in__link" href="">
+                  <svg class="join-in__icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in__item">
+                <a class="join-in__link" href="">
+                  <svg class="join-in__icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in__item">
+                <a class="join-in__link" href="">
+                  <svg class="join-in__icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Form-Footer -->
+          <div class="footer-form">
+            <p class="footer-form__title">Подпишитесь на рассылку</p>
+            <form>
+              <label for="email">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="E-mail"
+                  class="footer-form__input"
+                />
+              </label>
+              <button type="button" class="footer-form__button">
+                Подписаться <span class="footer-form__icon"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--BACKDROP MODAL -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop-modal">
+        <button
+          class="backdrop-modal__close-button"
+          type="button"
+          data-modal-close
+        >
+          <svg width="18" height="18">
+            <use href="./img/modalka/symbol-defs.svg#close-black-modal"></use>
+          </svg>
+        </button>
+        <form class="modal">
+          <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="modal__box">
+            <label for="name" class="modal__label">Имя</label>
+            <input type="text" name="name" id="name" class="modal__input" />
+            <svg class="modal__icon" width="18" height="18">
+              <use href="./img/form/symbol-defs.svg#person-form"></use>
+            </svg>
+          </div>
+
+          <div class="modal__box">
+            <label for="tel" class="modal__label">Телефон</label>
+            <input type="text" name="tel" id="tel" class="modal__input" />
+            <svg class="modal__icon" width="18" height="18">
+              <use href="./img/form/symbol-defs.svg#phone-form"></use>
+            </svg>
+          </div>
+
+          <div class="modal__box">
+            <label for="email" class="modal__label">Пошта</label>
+            <input type="text" name="email" id="email" class="modal__input" />
+            <svg class="modal__icon" width="18" height="18">
+              <use href="./img/form/symbol-defs.svg#email-form"></use>
+            </svg>
+          </div>
+
+          <div class="modal__box">
+            <label for="coment" class="modal__label">Коментарии</label>
+            <textarea
+              name="text"
+              id="coment"
+              placeholder="Введите текст"
+              class="modal__textarea"
+            ></textarea>
+          </div>
+
+          <!--------------------------- CHECKBOX --------------------------------------->
+
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name=""
+              value="checkbox"
+              id="checkbox"
+              class="checkbox__input"
+            />
+            <span class="checkbox__icon"></span>
+            <label for="checkbox" class="checkbox__lable">
+              Соглашаюсь с рассылкой и принимаю<span>
+                <a class="checkbox__link" href="">Условия договора</a></span
+              ></label
+            >
+          </div>
+          <button class="button-form" type="button">
+            <span class="button-text-form">Отправить</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
