@@ -22,12 +22,13 @@
   <body>
     <!--HEADER-->
 
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header__contact">
-        <nav class="header__contact">
+        <nav class="header__contact nav-container">
           <a class="header__link header__link--fonts" href="./index.html">
             <span class="header__logo">Web</span>Studio</a
           >
+
           <ul class="header__list">
             <li class="header__item">
               <a
@@ -45,6 +46,51 @@
               <a class="header__link text-contact" href="#">Контакты</a>
             </li>
           </ul>
+
+          <!-- button manu -->
+          <button class="menu-buttom is-open" type="button" data-menu-button>
+            <svg
+              width="40"
+              height="40"
+              aria-label="переключатель мобильного меню"
+            >
+              <use
+                class="icon-menu"
+                href="./img/icon-menu/symbol-defs.svg#close_40px"
+              ></use>
+              <use
+                class="icon-close"
+                href="./img/icon-menu/symbol-defs.svg#menu_40px"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container">
+            <ul class="menu-container__list">
+              <li class="menu-container__item">
+                <a class="menu-container__link" href="./index.html">Студия</a>
+              </li>
+              <li class="menu-container__item">
+                <a class="menu-container__link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="menu-container__item">
+                <a class="menu-container__link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
         </nav>
         <ul class="content-list list">
           <li class="item-contact-header">
@@ -72,11 +118,11 @@
           </li>
         </ul>
       </div>
-    </header> -->
+    </header>
 
     <!--Main content-->
 
-    <!-- <main>
+    <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -84,7 +130,7 @@
             <span class="button__text">Заказать услугу</span>
           </button>
         </div>
-      </section> -->
+      </section>
 
       <section class="features section">
         <div class="container">
@@ -368,7 +414,7 @@
                 class="comand__worker"
                 src="img/Comand/img(3).jpg"
                 alt="Михаил Ермаков"
-                width="100%" 
+                width="100%"
               />
               <h3 class="comand__subject">Михаил Ермаков</h3>
               <p class="comand__subtitle">UI Designer</p>
@@ -691,5 +737,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
