@@ -413,6 +413,11 @@ img {
         flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__blok-logo {
+    text-align: center;
+  }
+}
 .footer__link {
   position: relative;
   text-decoration: none;
@@ -463,6 +468,11 @@ img {
     margin-top: 60px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join-in {
+    margin-left: auto;
+  }
+}
 
 .join-in__title {
   margin-bottom: 20px;
@@ -473,6 +483,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join-in__title {
+    text-align: center;
+  }
 }
 
 .join-in__list {

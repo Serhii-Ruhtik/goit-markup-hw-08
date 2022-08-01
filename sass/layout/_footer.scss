@@ -21,6 +21,12 @@
     }
   }
 
+  &__blok-logo{
+    @media screen and (min-width:768px) and (max-width:1199px) {
+      text-align: center;
+    }
+  }
+
   &__link {
     position: relative;
 
@@ -79,7 +85,9 @@
   @media screen and (max-width:767px) {
     margin-left: 0;
     margin-top: 60px;
-
+  }
+  @media screen and(min-width:768px) and (max-width:1199px){
+    margin-left: auto;
   }
 }
 
@@ -93,6 +101,9 @@
   text-transform: uppercase;
 
   color: #ffffff;
+  @media screen and(min-width:768px) and (max-width:1199px){
+    text-align: center;
+  }
 }
 
 .join-in__list {
