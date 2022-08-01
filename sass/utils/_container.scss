@@ -18,13 +18,15 @@
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  
 
   //   align-items: center;
   @media screen and(max-width:767px) {
     flex-direction: column;
   }
-
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    flex-wrap: wrap;
+  }
   margin: 0;
 }
 
