@@ -30,6 +30,18 @@
   margin: 0;
 }
 
+// Cart-set
+.card-set {
+display: flex;
+flex-wrap: wrap;
+margin: calc(-1 * var(--indent) / 2);
+}
+
+.card-set-item {
+flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
+margin: calc(var(--indent) / 2);
+}
+
 .caption {
   margin-bottom: 50px;
 
