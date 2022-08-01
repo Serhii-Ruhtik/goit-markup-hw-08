@@ -15,6 +15,10 @@
     @media screen and(max-width: 767px) {
         text-align: center;
     }
+    @media screen and(min-width:768px) and (max-width:1199px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 
   &__link {
@@ -131,6 +135,12 @@
   @media screen and (max-width:767px) {
     margin-top: 60px; 
   }
+  @media screen and(min-width:768px) and (max-width:1199px) {
+    margin-right: auto;
+    margin-top: 60px;
+  }
+    
+
 
   &__title {
     font-weight: 700;
@@ -138,13 +148,14 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 
     color: var(--color-white);
     margin-bottom: 20px;
   }
 
   &__input {
-    // width: 358px;
+    width: 450px;
     height: 50px;
     left: 815px;
     top: 2787px;
@@ -159,10 +170,17 @@
     margin: 0;
     padding-left: 16px;
     padding-right: 28px;
-    
+    @media screen and (min-width:1200px) {
+      width: 358px;
+      
+    }
   }
 
   &__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     width: 200px;
     height: 50px;
     left: 1185px;
@@ -187,4 +205,6 @@
     margin-left: 10px;
     margin-top: -4px;
   }
+
 }
+ 
