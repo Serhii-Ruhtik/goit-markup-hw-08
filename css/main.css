@@ -183,6 +183,11 @@ img {
   padding: 0 15px 0 15px;
 }
 
+.header {
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+
 .header__list {
   margin: 0;
   padding: 0;
@@ -363,12 +368,7 @@ img {
   margin-right: 30px;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
 .header__contact {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,13 +777,17 @@ img {
 }
 
 .menu-container {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: palegoldenrod;
+  background-color: var(--color-white);
   padding: 40px;
   font-size: 20px;
+}
+.menu-container.is-open {
+  display: block;
 }
 
 .menu-container__list {

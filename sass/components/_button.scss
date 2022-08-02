@@ -107,14 +107,21 @@
 // menu container
 
 .menu-container {
+  display: none;
+
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: palegoldenrod;
+  background-color: var(--color-white);
   padding: 40px;
 
   font-size: 20px;
+
+
+  &.is-open{
+    display: block;
+  }
 }
 
 .menu-container__list {
