@@ -488,7 +488,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .join-in {
-    margin-left: auto;
+    margin-left: 310px;
   }
 }
 
