@@ -1248,6 +1248,11 @@ img {
           flex-direction: column;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 1199px) {
+  .modal__box {
+    width: 100%;
+  }
+}
 .modal__box:nth-child(5) {
   margin-bottom: 0;
 }
@@ -1366,6 +1371,12 @@ img {
 .backdrop-modal__close-button:hover {
   cursor: pointer;
   fill: var(--acsent-text-color);
+}
+
+@media screen and (min-width: 480px) {
+  .backdrop-modal {
+    width: 450px;
+  }
 }
 
 .section-margin {
