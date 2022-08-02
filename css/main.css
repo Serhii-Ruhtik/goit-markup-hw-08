@@ -267,7 +267,7 @@ img {
 }
 
 .header__link.current,
-.header__link.portfolio,
+.header__link--portfolio,
 .header__link.text-contact,
 .header__link.contact-header {
   padding-top: 30px;
@@ -759,6 +759,11 @@ img {
   margin: 0px;
   margin-left: auto;
   background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .menu-buttom {
+    display: none;
+  }
 }
 
 .menu-buttom .icon-close {
