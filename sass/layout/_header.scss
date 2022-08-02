@@ -89,8 +89,19 @@
     padding-bottom: 32px;
 }
 
+.header__link.contact-header{
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 10px;
+    }
+}
+
 .item-contact-header:not(:last-child) {
     margin-right: 30px;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        margin-right: 0;
+    }
 }
 
 .header__link.fonts:hover {
