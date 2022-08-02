@@ -115,7 +115,6 @@
   padding: 40px;
 
   font-size: 20px;
-      display: none;
 }
 
 .menu-container__list {
@@ -130,6 +129,7 @@
 }
 
 .menu-container__link {
+  position: relative;
   text-decoration: none;
   font-weight: 500;
   font-size: 40px;
@@ -140,7 +140,44 @@
   color: #212121;
 }
 
+.menu-container__link:hover,
+.menu-container__link:focus {
+  color: var(--acsent-text-color);
+}
+
+.menu-container__link-social {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
 .menu-container__list--flex {
   display: flex;
   margin-top: 64px;
+}
+
+.menu-container__link--tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.menu-container__link--email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
 }
