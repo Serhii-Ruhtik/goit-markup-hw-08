@@ -11,18 +11,19 @@
     }
   }
 
-  .footer__container{
+  .footer__container {
     @media screen and(max-width: 767px) {
-        text-align: center;
+      text-align: center;
     }
-    @media screen and(min-width:768px) and (max-width:1199px) {
+    @media screen and(min-width:768px) and (max-width: 1199px) {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
-  &__blok-logo{
-    @media screen and (min-width:768px) and (max-width:1199px) {
+  &__blok-logo {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
       text-align: center;
     }
   }
@@ -82,12 +83,12 @@
 .join-in {
   margin-left: 70px;
   padding-top: 12px;
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
     margin-top: 60px;
   }
-  @media screen and(min-width:768px) and (max-width:1199px){
-    margin-left: 310px;
+  @media screen and(min-width:768px) and (max-width: 1199px) {
+    margin-left: 165px;
   }
 }
 
@@ -101,7 +102,7 @@
   text-transform: uppercase;
 
   color: #ffffff;
-  @media screen and(min-width:768px) and (max-width:1199px){
+  @media screen and(min-width:768px) and (max-width: 1199px) {
     text-align: center;
   }
 }
@@ -143,15 +144,13 @@
 // footer form style
 .footer-form {
   margin-left: auto;
-  @media screen and (max-width:767px) {
-    margin-top: 60px; 
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
   }
-  @media screen and(min-width:768px) and (max-width:1199px) {
+  @media screen and(min-width:768px) and (max-width: 1199px) {
     margin-right: auto;
     margin-top: 60px;
   }
-    
-
 
   &__title {
     font-weight: 700;
@@ -159,10 +158,24 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: center;
+    
 
     color: var(--color-white);
     margin-bottom: 20px;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+      text-align: center;
+    }
+
+    @media screen and (min-width:1200px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__form {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: flex-end;
+    }
   }
 
   &__input {
@@ -181,9 +194,14 @@
     margin: 0;
     padding-left: 16px;
     padding-right: 28px;
-    @media screen and (min-width:1200px) {
+
+     @media screen and (min-width: 768px) {
+      width: 450px;
+
+    @media screen and (min-width: 1200px) {
       width: 358px;
-      
+    }
+   
     }
   }
 
@@ -202,9 +220,9 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: var(--acsent-text-color);
-     @media screen and (max-width:767px) {
-    margin-top: 20px; 
-  }
+    @media screen and (max-width: 767px) {
+      margin-top: 20px;
+    }
   }
 
   &__icon {
@@ -216,6 +234,4 @@
     margin-left: 10px;
     margin-top: -4px;
   }
-
 }
- 
