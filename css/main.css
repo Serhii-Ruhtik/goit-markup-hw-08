@@ -708,11 +708,22 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px) {
+  .hero__title {
+    font-size: 26px;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
   .hero__title {
     font-size: 26px;
     width: 360px;
-    height: 84px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    width: 696px;
   }
 }
 
