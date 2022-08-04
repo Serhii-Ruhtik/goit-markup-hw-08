@@ -42,7 +42,9 @@
 
 .flex__item {
     --items:1;
-    
+    @media screen and (max) {
+        
+    }
     // width: calc(( 100% - 60px ) / 3);
 
     // margin-right: 30px;
