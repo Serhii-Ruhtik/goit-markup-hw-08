@@ -3,7 +3,12 @@
     position: relative;
     border-bottom: 1px solid #ececec;
 }
-
+.header__container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
 
 .header__list {
     margin: 0;
