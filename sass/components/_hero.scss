@@ -1,48 +1,32 @@
 .hero {
-  background-color: var(--color-hero-footer);
+  position: relative;
+  max-width: 1600px;
+  margin: 0 avto;
 
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../img/hero/hero.jpg);
-  background-color: rgba(47, 48, 58, 0.4);
+  background-color: var(--color-hero-footer);
   background-position: center;
   background-repeat: no-repeat;
   text-transform: uppercase;
-  max-width: 1600px;
+
   margin: auto;
   text-align: center;
   padding: 200px 0px 200px 0px;
-  @media screen and (min-width: 480px) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero/hero.jpg);
-    background-color: rgba(47, 48, 58, 0.4);
-    width: 480px;
-  }
 
-  @media screen and (min-width: 768px) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero/hero.jpg);
-    background-color: rgba(47, 48, 58, 0.4);
-    width: 768px;
-  }
+  // background-color: var(--color-hero-footer);
 
-  @media screen and (min-width: 1200px) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero/hero.jpg);
-    background-color: rgba(47, 48, 58, 0.4);
-    width: 1600px;
-  }
+  // // background-image: linear-gradient(
+  // //     rgba(47, 48, 58, 0.4),
+  // //     rgba(47, 48, 58, 0.4)
+  // //   ),
+  // //   url(../img/hero/hero.jpg);
+  // background-color: rgba(47, 48, 58, 0.4);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // text-transform: uppercase;
+  // max-width: 1600px;
+  // margin: auto;
+  // text-align: center;
+  // padding: 200px 0px 200px 0px;
 
   &__title {
     color: var(--color-white);
