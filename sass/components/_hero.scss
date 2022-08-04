@@ -1,51 +1,63 @@
 .hero {
   max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 118px;
-    padding-bottom: 118px;
-    text-align: center;
-    background-color: var(--color-hero-footer);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  text-align: center;
+  background-color: var(--color-hero-footer);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url(../img/hero/Header-mob-img.jpg);
-
-  @media screen and(min-width:768px) {
+    ),
+    url(../img/hero/Header-mob-img.jpg);
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url(../img/hero/Header-tab-img.jpg);
+    ), url(../../img/hero/Header-mob-img@2x.jpg);
+  }
+
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../img/hero/Header-tab-img.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url(../../img/hero/Header-tab-img@2x.jpg);
+    }
   }
 
   @media screen and(min-width:1200px) {
     background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../img/hero/Header-lap-img.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url(../img/hero/Header-lap-img.jpg);
+    ), url(../../img/hero/Header-lap-img@2x.jpg);
+    }
   }
-
-  // background-color: var(--color-hero-footer);
-
-  // // background-image: linear-gradient(
-  // //     rgba(47, 48, 58, 0.4),
-  // //     rgba(47, 48, 58, 0.4)
-  // //   ),
-  //   url(../img/hero/hero.jpg);
-  // background-color: rgba(47, 48, 58, 0.4);
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // text-transform: uppercase;
-  // max-width: 1600px;
-  // margin: auto;
-  // text-align: center;
-  // padding: 200px 0px 200px 0px;
 
   &__title {
     color: var(--color-white);
