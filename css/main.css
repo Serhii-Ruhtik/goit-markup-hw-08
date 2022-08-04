@@ -1439,8 +1439,22 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .portfolio__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 .portfolio__item {
   margin-right: 8px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio__item {
+    margin-bottom: 15px;
+  }
 }
 .portfolio__item > .control {
   border-radius: 4px;
@@ -1455,6 +1469,17 @@ img {
 .flex__item {
   --items:1;
 }
+@media screen and (min-width: 768px) {
+  .flex__item {
+    --items:2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .flex__item {
+    --items:3;
+  }
+}
+
 .flex__link {
   display: block;
 }
