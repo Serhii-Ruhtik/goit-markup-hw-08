@@ -25,7 +25,6 @@
     <!--Main content-->
 
     <main>
-
       <!-- Section-Hero -->
 
       <section class="hero">
@@ -108,13 +107,41 @@
           <h2 class="caption">Наша команда</h2>
           <ul class="comand__list card-set">
             <li class="comand__item-main card-set-item">
-              <img
-                class="comand__worker"
-                src="img/Comand/img.jpg"
-                alt="Ігорь Демьяненко"
-                f
-                width="100%"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./img/Comand/comand-01-lap.jpg    1x,
+                    ./img/Comand/comand-01-lap@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/Comand/comand-01-tab.jpg    1x,
+                    ./img/Comand/comand-01-tab@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/Comand/comand-1-mob.jpg    1x,
+                    ./img/Comand/comand-1-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="comand__worker"
+                  src="./img/Comand/comand-1-mob.jpg"
+                  alt="Ігорь Демьяненко"
+                  width="100%"
+                />
+              </picture>
+
               <h3 class="comand__subject">Игорь Демьяненко</h3>
               <p class="comand__subtitle">Product Designer</p>
               <ul class="list-comand">
@@ -180,12 +207,41 @@
             </li>
 
             <li class="comand__item-main card-set-item">
-              <img
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./img/Comand/comand-02-mob.jpg    1x,
+                    ./img/Comand/comand-02-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/Comand/comand-02-mob.jpg    1x,
+                    ./img/Comand/comand-02-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/Comand/comand-2-mob.jpg    1x,
+                    ./img/Comand/comand-2-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
                 class="comand__worker"
-                src="img/Comand/img(1).jpg"
+                src="./img/Comand/comand-2-mob-.jpg"
                 alt="Ольга Репина"
                 width="100%"
               />
+              </picture>
+              
               <h3 class="comand__subject">Ольга Репина</h3>
               <p class="comand__subtitle">Frontend Developer</p>
               <ul class="list-comand">
