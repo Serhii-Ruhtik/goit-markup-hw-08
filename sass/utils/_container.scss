@@ -66,12 +66,12 @@ margin: calc(var(--indent) / 2);
   border: 0;
   clip: rect(0 0 0 0);
 }
-.nav-container {
-  margin-left: auto;
-  margin-right: auto;
+// .nav-container {
+//   margin-left: auto;
+//   margin-right: auto;
   
-  padding: 0 15px 0 15px;
-  @media screen and (max-width:767px) {
-    width: 100%;
-  }
-}
+//   padding: 0 15px 0 15px;
+//   @media screen and (max-width:767px) {
+//     width: 100%;
+//   }
+// }
