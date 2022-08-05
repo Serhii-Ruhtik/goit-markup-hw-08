@@ -841,6 +841,9 @@ img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
   padding-left: 0px;
   margin: 0px;
@@ -853,28 +856,29 @@ img {
   }
 }
 
-.menu-buttom .icon-close {
-  display: none;
-}
-
 .menu-buttom.is-open .icon-close {
   display: block;
-}
-
-.menu-buttom.is-open .icon-menu {
-  display: none;
 }
 
 .menu-buttom:hover {
   fill: var(--acsent-text-color);
 }
 
+.menu-buttom-close {
+  display: block;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+
 .menu-container {
   display: none;
-  position: absolute;
-  top: 100%;
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
   background-color: var(--color-white);
   padding: 40px;
   font-size: 20px;
