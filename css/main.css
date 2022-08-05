@@ -201,11 +201,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 1200px) {
-  .nav-container {
-    margin-left: auto;
-  }
-}
 
 .header__list {
   margin: 0;
@@ -716,6 +711,8 @@ img {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero/Header-lap-img.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/Header-lap-img.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -1561,6 +1558,9 @@ img {
 }
 
 .cart-portfolio {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -1570,6 +1570,14 @@ img {
 .flex__link {
   text-decoration: none;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
 }
 
 .desc {

@@ -93,6 +93,7 @@
 // }
 
 .cart-portfolio {
+    flex-grow: 1;
     padding: 20px 24px;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -101,7 +102,10 @@
 .flex__link {
     text-decoration: none;
     overflow: hidden;
-}
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} 
 .desc {
     margin-bottom: 4px;
 
