@@ -872,34 +872,44 @@ img {
 }
 
 .menu-container {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
   width: 100vw;
   height: 100vh;
-  z-index: 999;
-  background-color: var(--color-white);
-  padding: 40px;
-  font-size: 20px;
+  padding: 48px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
 }
 .menu-container.is-open {
-  display: block;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .menu-container {
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
   }
+}
+
+.menu-container__list--nav {
+  margin-bottom: auto;
 }
 
 .menu-container__list {
   list-style: none;
-}
-
-.menu-container__item--contact {
-  margin-top: 302px;
 }
 
 .menu-container__item:not(:last-child) {
