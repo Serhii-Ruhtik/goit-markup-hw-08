@@ -933,6 +933,7 @@ img {
 }
 
 .menu-container__link-social {
+  text-decoration: none;
   margin-right: 20px;
   font-weight: 500;
   font-size: 18px;
@@ -945,6 +946,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 64px;
 }
 
