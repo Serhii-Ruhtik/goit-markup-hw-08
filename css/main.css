@@ -617,6 +617,7 @@ img {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    gap: 12px;
   }
 }
 .footer-form__input {
@@ -1466,6 +1467,11 @@ img {
 @media screen and (min-width: 480px) {
   .backdrop-modal {
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop-modal {
+    width: 528px;
   }
 }
 
